@@ -1,0 +1,31 @@
+% Modelo de temperatura
+% Título:       Funcion constante
+% Descripción:  Script para graficar la funcion de forma f (x) = a   
+% Autor:        Alexis Hernandez Martinez (Lexshernandez) 
+% Fecha:        14/04/2021
+% Sesion:       1
+
+% C (f) = ((f * 5) / 9) +32
+
+% limpiar variables
+ clear
+
+% Ejemplo f (x) = a
+
+% Rango de -212..212 en i = 0.2
+ f = -212: 0,2: 212; 
+
+% Valor de la función 
+ C = ((f * 5) / 9) +32; 
+
+% Dibujar x, y
+ plot(f, C);
+
+% Titulo
+ title("C (f) = ((f * 5) / 9) +32");
+
+% Etiqueta para x
+ xlabel ( " fahrenheit" );
+
+% Etiqueta para y
+ylabel ("centigrados");
