@@ -1,0 +1,31 @@
+% Derivdasconformulageneral2
+% Título:       Funcion constante
+% Descripción:  Script para graficar la funcion de forma f (x) = a   
+% Autor:       Alexis Hernandez Martinez (Lexishernandez) alexishernandezmartinez217@gmail.com
+% Fecha:        14/04/2021
+% Sesion:       1
+
+ % y=((10-(x)))
+
+
+% limpiar variables
+ clear
+
+% Ejemplo f (x) = a
+
+% Rango de -3..3 en i = 0.1
+ x = [-5: 1 :5]; 
+
+% Valor de la funciÃ³n 
+ y=((10-(x)))
+
+% Dibujar x, y
+ plot(x , y);
+
+% Titulo ("f (x)=y=((10-(x)))
+ 
+% Etiqueta para x
+ xlabel ( "x");
+
+% Etiqueta para y
+ylabel ("y");
