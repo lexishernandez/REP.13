@@ -1,0 +1,30 @@
+% Derivadaconformulageneral
+% Titulo:      Funcion Lineal
+% Descripcion: Script para graficar la funcion f (x) = +2 
+% Autor:       Alexis Hernandez Martinez (Lexishernandez) alexishernandezmartinez217@gmail.com 
+% Fecha:       20210415
+% Sesion:      1 
+
+% y=((x-(-2)))
+
+% limpiar variables
+ clear
+
+% Ejemplo f (x) = a
+
+% Rango de -3..3 en i = 0.1
+ x = [-3: 1 :3]; 
+
+% Valor de la funciÃ³n 
+ y=((x-(+2)))
+
+% Dibujar x, y
+ plot(x , y);
+
+% Titulo ("f (x)=((x-(+2)))
+
+% Etiqueta para x
+ xlabel ( "x");
+
+% Etiqueta para y
+ylabel ("y");
