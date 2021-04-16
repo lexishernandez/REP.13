@@ -1,0 +1,29 @@
+%Modelosmatematicos1.1
+	% Título: Funcion Lineal
+	% Descripción: Script para graficar la funcion y=-x^2+3
+	% Autor: Alexis Hernandez Martinez (Lexishernandez) alexishernandezmartinez217@gmail.com
+        % Fecha: 15042021
+	% Sesión: 1
+	
+	
+	% limpiar variables
+         clear
+	% Ejemplo y=-x.^2+3
+
+	% Rango de -10..10 en i = 1
+	x = -5 : 0.2 : 100 ;
+
+	% Valor de la función
+	 y=-x.^2+3; 
+
+	% Dibujar x, y
+        plot (x, y);
+
+	% Titulo
+	title ( "y=-x^2+3" );
+
+	% Etiqueta para x
+	xlabel ( " x " );
+
+	% Etiqueta para y
+	ylabel ( " f (x) " );
