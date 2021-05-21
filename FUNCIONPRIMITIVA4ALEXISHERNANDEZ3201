@@ -1,0 +1,13 @@
+% Título: FUNCIONES PRIMITIVAS
+% Descripción: Solucione de las integrales
+% Autor: Hernandez martinez alexis
+% Fecha: 20/05/2021
+% Versión 1
+% Notas: función f (x) = 8x ^ 2-3x ^ 3
+
+limpiar todo
+clc
+
+syms x
+fu = input ( ' Función Ingresar: ' )
+inegral = int (f, x)
