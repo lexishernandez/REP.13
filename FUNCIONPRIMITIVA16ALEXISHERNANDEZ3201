@@ -1,0 +1,14 @@
+% Título: FUNCIONES PRIMITIVAS
+% Descripción: Solucione de las integrales
+% Autor: Hernandez martinez alexis
+% Fecha: 20/05/2021
+% Versión 1
+% Notas: funcion f (x) = 5u ^ 3/2
+
+
+limpiar todo
+clc
+
+syms u
+fu = input ( ' Función Ingresar: ' )
+integral = int (f, u)
