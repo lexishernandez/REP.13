@@ -9,5 +9,5 @@ limpiar todo
 clc
 
 syms x
-fu = input ( ' Función Ingresar: ' )
-inegral = int (f, x)
+fu = input ('Función Ingresar:')
+integral = int (f, x)
