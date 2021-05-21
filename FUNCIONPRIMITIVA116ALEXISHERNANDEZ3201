@@ -3,7 +3,7 @@
 % Autor: Hernandez martinez alexis
 % Fecha: 20/05/2021
 % Versión 1
-% Notas: funcion f (t) = 3 / t ^ 2
+% Notas: funcion f (t) = 3 / t ^ 5
 
 
 limpiar todo
@@ -11,6 +11,6 @@ clc
 
 
 syms t
-fu = input ( ' Función Ingresar: ' )
+fu = input ('Función Ingresar:')
 
 integral = int (f, t)
