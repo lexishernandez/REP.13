@@ -1,0 +1,31 @@
+% Título: FUNCIONES PRIMITIVAS
+% Descripción: Solucione de las integrales
+% Autor: Hernandez martinez alexis
+% Fecha: 20/05/2021
+% Versión 1
+% Notas: funcion f (x) = 3
+
+limpiar todo
+clc
+
+syms x
+f = input ( ' Función Ingresar: ' )
+i = input ( ' Ingresar intervalo inferior: ' )
+s = input ( ' Ingresar intervalo superior: ' )
+
+integral = int (f, x, i, s)
+
+x = - 1 : 0,1 : 4 ;
+y = 3 ;
+
+% Dibujar grafica
+trama (x, y)
+
+% Titulo
+título ( " f (x) = 3 " );
+
+% Etiqueta para x
+xlabel ( " X " );
+
+% Etiqueta para y
+ylabel ( " Y " );
