@@ -1,0 +1,31 @@
+% Título: FUNCIONES PRIMITIVAS
+% Descripción: Solucione de las integrales
+% Autor: Hernandez martinez alexis
+% Fecha: 20/05/2021
+% Versión 1
+% Notas: funcion f (x) = 2x ^ 2-3x
+
+limpiar todo
+clc
+
+syms x
+fu = input ( ' Función Ingresar: ' )
+i = input ( ' Ingresar intervalo inferior: ' )
+s = input ( ' Ingresar intervalo superior: ' )
+
+integral = int (f, x, i, s)
+
+x = - 3 : 0,1 : 3 ;
+y = 2 * (x. ^ 2) - 3 * x;
+
+% Dibujar grafica
+trama (x, y)
+
+% Titulo
+título ( " f (x) = 2x ^ 2-3x " );
+
+% Etiqueta para x
+xlabel ( " X " );
+
+% Etiqueta para y
+ylabel ( " Y " );
