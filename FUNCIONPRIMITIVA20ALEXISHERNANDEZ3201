@@ -1,0 +1,31 @@
+% Título: FUNCIONES PRIMITIVAS
+% Descripción: Solucione de las integrales
+% Autor: Hernandez martinez alexis
+% Fecha: 20/05/2021
+% Versión 1
+% Notas: función f (x) = │x + 2│
+
+limpiar todo
+clc
+
+syms x
+fu = input ( ' Función Ingresar: ' )
+i = input ( ' Ingresar intervalo inferior: ' )
+s = input ( ' Ingresar intervalo superior: ' )
+
+integral = int (f, x, i, s)
+
+x = - 4 : 0,1 : 2 ;
+y = abs (x + 2 );
+
+% Dibujar grafica
+trama (x, y)
+
+% Titulo
+título ( " f (x) = │x + 2│ " );
+
+% Etiqueta para x
+xlabel ( " X " );
+
+% Etiqueta para y
+ylabel ( " Y " );
