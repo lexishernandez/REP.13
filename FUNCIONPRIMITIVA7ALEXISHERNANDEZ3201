@@ -1,0 +1,12 @@
+% Título: FUNCIONES PRIMITIVAS
+% Descripción: Solucione de las integrales
+% Autor: Hernandez martinez alexis
+% Fecha: 20/05/2021
+% Versión 1
+% Notas: funcion f (x) = x ^ 5
+
+limpiar todo
+clc
+syms x
+fu = input ( ' Función Ingresar: ' )
+integral = int (f, x) (f, x)
