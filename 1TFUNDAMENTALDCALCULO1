@@ -1,0 +1,18 @@
+% Title       : TEOREMA FUNDAMENTAL DEL CALCULO  
+% Description : Encontrar la antiderivada de funcion definida en [a,b]  
+% Author      : Heernandez Martinez Alexis 
+% Date        : 27 de Mayo 2021
+% Version     : 1
+% Notes       : funcion f(x)=x^3
+
+
+clear all
+clc
+syms x
+f=x.^3
+
+a=-1
+
+b=3
+
+i =int(f,x,a,b)
