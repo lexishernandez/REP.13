@@ -1,0 +1,21 @@
+
+% Title       : TEOREMA FUNDAMENTAL DEL CALCULO  
+% Description : Encontrar la antiderivada de funcion definida en [a,b]  
+% Author      : Hernandez Martinez Alexis 
+% Date        : 27 de Mayo 2021
+% Version     : 1
+% Notes       : funcion f(y)= y^2dy/y+2
+
+clear all
+clc
+syms y
+f=(y.^2)/(y+2)
+
+a=-1
+
+
+b=1
+
+
+
+i=int(f,y,a,b)
