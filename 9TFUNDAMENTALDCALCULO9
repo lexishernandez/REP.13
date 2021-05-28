@@ -1,0 +1,21 @@
+% Title       : TEOREMA FUNDAMENTAL DEL CALCULO  
+% Description : Encontrar la antiderivada de funcion definida en [a,b]  
+% Author      : Hernandez Martinez Alexis 
+% Date        : 27 de Mayo 2021
+% Version     : 1
+% Notes       : funcion f(x)= xdx/√1+2x^2
+
+clear all
+clc
+syms x
+f=(x)/sqrt(1+2*x.^2)
+
+
+
+a=0
+
+b=2
+
+
+
+i=int(f,x,a,b)
