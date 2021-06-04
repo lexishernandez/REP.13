@@ -1,0 +1,35 @@
+% Título: CALCULO DE INTEGRALES DEFINIDAS    
+% Autor: Hernandez Martinez Alexis 
+% Fecha: 03 de Junio 2021
+% Versión 1
+
+
+
+syms x;
+fx=input("ingresar funcion")
+
+funcion = inline (char(fx))
+
+
+a= input("limite inferior ");
+ 
+b= input("limite superior ");
+velocidad =(57.473*(b^3)/3)-(57.473*(a^3)/3)
+
+
+
+
+x = 0:0.2:7;
+
+D_Pies=(velocidad*7)/2 
+
+D_Metros=D_Pies/3.28 
+
+
+
+f=x;
+plot(f,x);
+
+grid on
+hold on
+plot(f,x)
