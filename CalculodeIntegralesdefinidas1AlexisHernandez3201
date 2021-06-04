@@ -1,0 +1,43 @@
+% Título: CALCULO DE INTEGRALES DFINIDAS    
+% Autor: Hernandez Martinez Alexis 
+% Fecha: 03 de Junio 2021
+% Versión 1
+% Notas: funcion Sqrt(t)+t
+
+syms x;
+fx=input("ingresar la funcion:")
+funcion = inline (char(fx))
+
+a= input("limite inferior "); 
+
+b= input("limite superior ");
+velocidad =(2*(b*sqrt(b))/3 + b^2/2) - (2*(a*sqrt(a))/3 + a^2/2)
+
+
+x = 1:0.2:4;
+
+h1=input("ingresar la hora :");
+D_millas1=velocidad*h1
+
+h2=input("ingresar la hora :");
+D_millas2=velocidad*h2
+
+h3=input("ingresar la hora :");
+D_millas3=velocidad*h3
+
+
+
+D_metros=(D_millas1)*(1609.344)
+
+D_metros=(D_millas2)*(1609.344)
+
+D_metros=(D_millas3)*(1609.344)
+
+
+f=x;
+plot(f,x);
+
+
+grid on
+hold on
+plot(f,x )
